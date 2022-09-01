@@ -1,0 +1,93 @@
+.login-background {
+    background-image: url('https://images.pexels.com/photos/2882566/pexels-photo-2882566.jpeg?auto=compress&cs=tinysrgb&w=600');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 32% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(151, 129, 129, 0.918);
+}
+
+.login-content {
+
+    padding: 40px 10px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid  darkslategray;
+    box-shadow: 0px 0px 9px;
+
+}
+.label{
+    margin-left: 10%;
+    color: black;
+}
+
+.login-content h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2px;
+    
+}
+
+.inputs-field {
+    width: 230px;
+    padding: 10px;
+    border: 2px solid rgb(7, 7, 7);
+    background: rgb(221, 17, 187);
+    margin-left: 100px;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+.inputs-field:focus {
+    outline:rgb(204, 200, 200);
+}
+
+.log-btn {
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 200px;
+    padding: 6px;
+    background: rgb(221, 124, 124);
+    border-color: white;
+    border-radius: 4px;
+}
+
+.groups {
+    padding: 20px 30px;
+}
+
+::placeholder {
+    color: white;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .login-content {
+        height: 330px;
+        background-color: unset;
+        border-radius: 12px;
+        box-shadow: 0px 0px 9px;
+        width: 295px;
+
+    }
+
+    .groups {
+        margin-left: -20px;
+    }
+
+    .log-btn {
+        margin-left: -20px;
+    }
+
+    .login-background {
+        background-size: cover;
+
+    }
+}
